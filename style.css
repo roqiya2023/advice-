@@ -1,0 +1,58 @@
+/* Resetting default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center aligning container content */
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  /* Dice Image Styles */
+  #dice-img {
+    cursor: pointer; /* Changing cursor to pointer on hover */
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  /* Output Styles */
+  #output {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Attribution Styles */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: #007bff; /* Changing link color */
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
